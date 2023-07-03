@@ -1,4 +1,4 @@
-package com.exam.service;
+package com.exam.service.impl;
 
 import java.util.List;
 import java.util.Set;
@@ -12,6 +12,7 @@ import com.exam.dao.RoleRepository;
 import com.exam.dao.UserRepository;
 import com.exam.model.User;
 import com.exam.model.UserRole;
+import com.exam.service.UserService;
 import com.exam.util.UserFoundException;
 
 @Service

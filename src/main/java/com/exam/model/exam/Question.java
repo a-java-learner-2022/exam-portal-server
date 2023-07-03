@@ -9,6 +9,7 @@ public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long questionId;
+    @Column(length= 5000)
     private String content;
     private String image;
     private String option1;
